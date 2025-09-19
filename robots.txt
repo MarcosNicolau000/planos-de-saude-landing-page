@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://planos-saude-consultoria.com.br/sitemap.xml
+
+# Block admin areas
+Disallow: /admin/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /planos-individuais
+Allow: /planos-familiares
+Allow: /planos-empresariais
+
+# Crawl delay
+Crawl-delay: 1
