@@ -131,7 +131,14 @@
 
     <link rel="stylesheet" href="./src/style.css">
 </head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FM4J3B3KL4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-FM4J3B3KL4');
+</script>
 <body>
     <!-- Hero Section -->
     <section class="hero">
@@ -652,13 +659,7 @@
             document.querySelector(".whatsapp-btn").style.display = "flex";
         }, 3000);
 
-        // Google Analytics (replace with your tracking ID)
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-        gtag("config", "GA_MEASUREMENT_ID");
+    
 
         // Track button clicks
         document.querySelectorAll(".btn").forEach((btn) => {
@@ -684,8 +685,7 @@
 
     </script>
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    
 </body>
 
 </html>
