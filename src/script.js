@@ -1,7 +1,7 @@
 // WhatsApp numbers for different regions
 const whatsappNumbers = {
-  norte: "5585999989851", // Replace with North/Northeast WhatsApp number
-  sul: "5511888888888", // Replace with South/Southeast/Center-West WhatsApp number
+  norte: "5585999989851", 
+  sul: "5515991875145",
 };
 
 // Open region selection modal
