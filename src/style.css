@@ -612,6 +612,14 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
 @media (min-width: 768px) {
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -704,6 +712,17 @@ body {
 }
 .footer-link:hover {
   color: #34d399;
+}
+
+.footer-logo {
+  margin-bottom: 40px;
+  width: 300px;
+}
+
+@media (max-width: 640px) {
+  .footer-logo {
+    width: 200px;
+  }
 }
 
 .footer-bottom {
